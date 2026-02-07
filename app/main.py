@@ -1,8 +1,8 @@
 from fastapi import FastAPI, UploadFile, File
 import uuid, os, shutil
-from metadata.schema import MetadataInput
-from metadata.model import predict_metadata
-from segmentation.model import segment_image
+from app.metadata.schema import MetadataInput
+from app.metadata.model import predict_metadata
+from app.segmentation.model import segment_image
 
 app = FastAPI(title="Medical AI API")
 

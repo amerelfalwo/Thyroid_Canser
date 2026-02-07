@@ -1,9 +1,10 @@
 fastapi
 uvicorn
-tensorflow
+scikit-learn==1.8.0
 opencv-python-headless
 numpy
 pandas
 scikit-learn
 joblib
 python-multipart
+tensorflow==2.20.0
